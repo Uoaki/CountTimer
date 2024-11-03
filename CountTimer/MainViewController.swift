@@ -23,7 +23,7 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hello")
+
         pickUpSecond.delegate = self
         pickUpSecond.dataSource = self
         
